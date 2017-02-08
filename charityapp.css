@@ -5,38 +5,40 @@
  }
 
  h1 {
- 	font-family: Verdana, sans-serif;
- 	font-style: italic;
- 	font-size: 180px;
+ 	font-family: Garamond, sans-serif;
+ 	font-style: normal;
+ 	font-size: 280px;
  	text-align: center;
  	margin-top: 400px;
  	color: #ffffff;
- 	text-shadow: 8px 8px #9BD5E6;
+ 
  }
 
 #time_box, #money_box, #stuff_box {
  	display: inline-block;
  	font-size: 150px;
  	color:black;
- 	background-color: #e6faff;
  	opacity:.7;
- 	font-family: Verdana, sans-serif;
+ 	font-family: Garamond, sans-serif;
  	font-style: bold;
  	cursor:pointer;
+ 	opacity: 0.5;
+ 	padding-right: 100px;
+ 	padding-left: 100px;
 
  }
 
 #time_box {
 	position: relative;
-	left:10%;
+	left:8%;
 }
 #money_box {
 	position: relative;
-	left:40%;
+	left:33%;
 }
 #stuff_box {
 	position: relative;
-	left:70%;
+	left:57%;
 }
 button:hover, button:hover, button:hover {
 	opacity: .4;
