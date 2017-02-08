@@ -1,0 +1,44 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background: url("homeimg.jpg") no-repeat fixed center; 
+  background-size: 5000px 3000px;
+ }
+
+ h1 {
+ 	font-family: Verdana, sans-serif;
+ 	font-style: italic;
+ 	font-size: 180px;
+ 	text-align: center;
+ 	margin-top: 400px;
+ 	color: #ffffff;
+ 	text-shadow: 8px 8px #9BD5E6;
+ }
+
+#time_box, #money_box, #stuff_box {
+ 	display: inline-block;
+ 	font-size: 150px;
+ 	color:black;
+ 	background-color: #e6faff;
+ 	opacity:.7;
+ 	font-family: Verdana, sans-serif;
+ 	font-style: bold;
+ 	cursor:pointer;
+
+ }
+
+#time_box {
+	position: relative;
+	left:10%;
+}
+#money_box {
+	position: relative;
+	left:40%;
+}
+#stuff_box {
+	position: relative;
+	left:70%;
+}
+button:hover, button:hover, button:hover {
+	opacity: .4;
+}
+
