@@ -1,0 +1,46 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background: url("homeimg.jpg") no-repeat fixed center; 
+  background-size: 5000px 3000px;
+ }
+
+ h1 {
+ 	font-family: Garamond, sans-serif;
+ 	font-style: normal;
+ 	font-size: 280px;
+ 	text-align: center;
+ 	margin-top: 400px;
+ 	color: #ffffff;
+ 
+ }
+
+#time_box, #money_box, #stuff_box {
+ 	display: inline-block;
+ 	font-size: 150px;
+ 	color:black;
+ 	opacity:.7;
+ 	font-family: Garamond, sans-serif;
+ 	font-style: bold;
+ 	cursor:pointer;
+ 	opacity: 0.5;
+ 	padding-right: 100px;
+ 	padding-left: 100px;
+
+ }
+
+#time_box {
+	position: relative;
+	left:8%;
+}
+#money_box {
+	position: relative;
+	left:33%;
+}
+#stuff_box {
+	position: relative;
+	left:57%;
+}
+button:hover, button:hover, button:hover {
+	opacity: .4;
+}
+
